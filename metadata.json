@@ -1,0 +1,6 @@
+{
+  "name": "Savoré Lagos",
+  "description": "Modern restaurant in Lekki, Lagos offering Nigerian dishes, grills, burgers, seafood, and quick meals with instant WhatsApp ordering and delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
