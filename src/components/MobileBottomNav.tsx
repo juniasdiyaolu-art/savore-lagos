@@ -12,7 +12,7 @@ export default function MobileBottomNav() {
         
         {/* Home */}
         <a
-          href="#"
+          href="#top"
           className="flex flex-col items-center justify-center py-1 text-neutral-400 hover:text-amber-400 active:scale-95 transition-all"
         >
           <Home className="w-5 h-5 mb-0.5" />

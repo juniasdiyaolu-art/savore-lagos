@@ -46,7 +46,7 @@ export default function Footer() {
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">Quick Navigation</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-amber-400 transition-colors">Home</a>
+                <a href="#top" className="hover:text-amber-400 transition-colors">Home</a>
               </li>
               <li>
                 <a href="#menu" className="hover:text-amber-400 transition-colors">Menu</a>

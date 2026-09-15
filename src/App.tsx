@@ -18,7 +18,7 @@ import MobileBottomNav from './components/MobileBottomNav';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#0b0c10] text-[#f3f4f6] selection:bg-amber-500 selection:text-black pb-20 lg:pb-0">
+    <div id="top" className="min-h-screen bg-[#0b0c10] text-[#f3f4f6] selection:bg-amber-500 selection:text-black pb-20 lg:pb-0">
       {/* Primary Navigation */}
       <Navbar />
 

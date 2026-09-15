@@ -40,8 +40,14 @@ Please confirm availability and the next steps.`;
     setSubmittedMessage(formattedMessage);
     setSubmittedUrl(waUrl);
 
-    // Open WhatsApp directly
-    window.open(waUrl, '_blank', 'noopener,noreferrer');
+    // Attempt to open WhatsApp directly while keeping fallback accessible
+    try {
+      if (typeof window !== 'undefined') {
+        window.open(waUrl, '_blank', 'noopener,noreferrer');
+      }
+    } catch {
+      // Fallback is rendered in UI below
+    }
   };
 
   return (
